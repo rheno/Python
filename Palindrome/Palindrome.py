@@ -1,5 +1,5 @@
 #############  Checking Palindrome words in Python  ##############
-#############  By : s3tanc0d3r@gmail.com  ###################### 
+#############  By : rhenobudiasa@yahoo.com  ###################### 
 
 
 
