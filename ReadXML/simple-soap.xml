@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://lalala.org/SomeData/GetResponse</a:Action>
+   </s:Header>
+   <s:Body>
+      <GetResponse xmlns="http://lalala.org/">
+         <GetResult xmlns:b="http://schemas.datacontract.org/SomeFormat" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <b:AP_SOMETHING_1>
+               <b:ID>1336896</b:ID>
+               <b:Date>20150706</b:Date>
+               <b:Division>HOHO</b:Division>
+               <b:Product>TABLET</b:Product>
+               <b:Model_Alias>T117</b:Model_Alias>
+               <b:Mobile_No />
+               <b:Sales>1</b:Sales>
+               <b:Del_Flag>0</b:Del_Flag>
+            </b:AP_SOMETHING_1>
+            <b:AP_SOMETHING_2>
+              <b:ID>1336897</b:ID>
+              <b:Date>20150706</b:Date>
+              <b:Division>Lala</b:Division>
+              <b:Product>PHONE</b:Product>
+              <b:Model_Alias>Z987</b:Model_Alias>
+              <b:Mobile_No />
+              <b:Sales>1</b:Sales>
+              <b:Del_Flag>0</b:Del_Flag>
+            </b:AP_SOMETHING_2>
+            <b:AP_SOMETHING_3>
+              <b:ID>1336899</b:ID>
+              <b:Date>20150701</b:Date>
+              <b:Division>PUPU</b:Division>
+              <b:Product>PHONE</b:Product>
+              <b:Model_Alias>G116</b:Model_Alias>
+              <b:Mobile_No />
+              <b:Sales>10</b:Sales>
+              <b:Del_Flag>0</b:Del_Flag>
+            </b:AP_SOMETHING_3>
+         </GetResult>
+         <ResultMsg>Success</ResultMsg>
+      </GetResponse>
+   </s:Body>
+</s:Envelope>
