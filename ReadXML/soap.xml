@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2001/12/soap-envelope"
+soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
+
+<soap:Body xmlns:m="http://www.example.org/stock">
+	<LoginResponse xmlns="http://tempuri.org/wsSalesQuotation/Service1">
+        	<LoginResult>45eeadF43423KKmP33</LoginResult>
+        </LoginResponse>
+	<LoginResponse xmlns="http://tempuri.org/wsSalesQuotation/Service1">
+                <LoginResult>liat</LoginResult>
+        </LoginResponse> 
+</soap:Body>
+
+</soap:Envelope>
