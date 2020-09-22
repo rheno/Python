@@ -23,6 +23,8 @@ def get_object(dict_data, object_key):
         # key is not found
         return None
 
+# Test find key `city` 
 p = get_object(obj, 'city')
 
+# will print `jakarta`
 print(p.get('city'))
